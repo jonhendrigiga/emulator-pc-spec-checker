@@ -1,0 +1,4 @@
+function spec(){var core=+document.getElementById('core').value,ram=+document.getElementById('ram').value,gpu=+document.getElementById('gpu').value,game=document.getElementById('game').value;
+var need={genshin:{core:6,ram:16,gpu:2},star:{core:6,ram:8,gpu:1},wzry:{core:4,ram:8,gpu:1},pubg:{core:6,ram:8,gpu:1}}[game];var pass=core>=need.core&&ram>=need.ram&&gpu>=need.gpu,tier,set;
+if(core>=need.core+2&&ram>=need.ram&&gpu>=2){tier='高畫質達標';set='DirectX/Vulkan·6核·8192MB·高·60(120)';}else if(pass){tier='中畫質流暢';set='DirectX·'+Math.min(6,core)+'核·'+Math.min(8192,ram*512)+'MB·中·60fps';}else{tier='偏低，建議降檔';set='OpenGL·2048-4096MB·720P低·30fps';}
+document.getElementById('out').style.display='block';document.getElementById('out').innerHTML='<div class=rec>'+tier+'</div><p><b>設定：</b>'+set+'</p><p><small>務必先開 VT；雙顯卡筆電把 dnplayer.exe 設高效能；裝純英文路徑。</small></p>';}
