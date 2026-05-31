@@ -1,0 +1,4 @@
+function spec(){var core=+document.getElementById('core').value,ram=+document.getElementById('ram').value,gpu=+document.getElementById('gpu').value,game=document.getElementById('game').value;
+var need={genshin:{core:6,ram:16,gpu:2},star:{core:6,ram:8,gpu:1},wzry:{core:4,ram:8,gpu:1},pubg:{core:6,ram:8,gpu:1}}[game];var pass=core>=need.core&&ram>=need.ram&&gpu>=need.gpu,tier,set;
+if(core>=need.core+2&&ram>=need.ram&&gpu>=2){tier='高画質OK';set='DirectX/Vulkan・6コア・8192MB・高・60(120)';}else if(pass){tier='中画質で快適';set='DirectX・'+Math.min(6,core)+'コア・'+Math.min(8192,ram*512)+'MB・中・60fps';}else{tier='やや不足・設定を下げて';set='OpenGL・2048-4096MB・720p低・30fps';}
+document.getElementById('out').style.display='block';document.getElementById('out').innerHTML='<div class=rec>'+tier+'</div><p><b>設定:</b> '+set+'</p><p><small>必ずVT有効化(+50-100%)；2GPUノートはdnplayer.exeを高パフォーマンスに；半角英数パスに設置。</small></p>';}
