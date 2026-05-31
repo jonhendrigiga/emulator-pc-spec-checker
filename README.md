@@ -2,7 +2,7 @@
 
 输入你的 CPU、内存、显卡，工具判断在模拟器里玩某款手游能不能流畅，并给出对应的画质 / 帧率 / 渲染设置档位。
 
-**🌐 在线使用 / Live:** [简体](https://jonhendrigiga.github.io/emulator-pc-spec-checker/) · [繁體](https://jonhendrigiga.github.io/emulator-pc-spec-checker/zh-tw/) · [English](https://jonhendrigiga.github.io/emulator-pc-spec-checker/en/) · [日本語](https://jonhendrigiga.github.io/emulator-pc-spec-checker/ja/) · [Français](https://jonhendrigiga.github.io/emulator-pc-spec-checker/fr/)
+**🌐 在线使用 / Live:** [简体](https://jonhendrigiga.github.io/emulator-pc-spec-checker/) · [繁體](https://jonhendrigiga.github.io/emulator-pc-spec-checker/zh-tw/) · [English](https://jonhendrigiga.github.io/emulator-pc-spec-checker/en/) · [日本語](https://jonhendrigiga.github.io/emulator-pc-spec-checker/ja/) · [Français](https://jonhendrigiga.github.io/emulator-pc-spec-checker/fr/) · [Deutsch](https://jonhendrigiga.github.io/emulator-pc-spec-checker/de/)
 
 ## 这个工具能做什么
 
